@@ -15,7 +15,7 @@ public class VideoInfo {
     public String uploadDate;
     @JsonProperty("display_id")
     public String displayId;
-    public int duration;
+    public long duration;
     public String description;
     public String thumbnail;
     public String license;
